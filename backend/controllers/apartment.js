@@ -1,4 +1,5 @@
 import Apartment from "../models/Apartment.js";
+import createError from "../utils/error.js";
 
 // Create Apartment
 export const createApartment = async (req, res, next) => {
